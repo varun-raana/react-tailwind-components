@@ -3,6 +3,9 @@ module.exports = {
 	content: ["./src/**/*.{js,jsx,ts,tsx}"],
 	theme: {
 		extend: {
+			fontFamily: {
+				ubuntu: "Ubuntu",
+			},
 			backgroundImage: {
 				error404_01: "url('/src/assets/images/404/error404_01.svg')",
 				error404_02: "url('/src/assets/images/404/004.jpg')",

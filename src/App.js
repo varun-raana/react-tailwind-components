@@ -1,11 +1,11 @@
-import Errors from "./pages/errors/Errors";
+// import Errors from "./pages/errors/Errors";
 import Navbars from "./pages/navbars/Navbars";
 
 function App() {
 	return (
-		<div className="max-w-7xl mx-auto md:p-10 p-5 space-y-10">
+		<div className="max-w-screen-lg mx-auto py-10 md:px-0 px-5 space-y-10">
 			<Navbars />
-			<Errors />
+			{/* <Errors /> */}
 		</div>
 	);
 }
