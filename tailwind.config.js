@@ -14,6 +14,8 @@ module.exports = {
 				error404_05: "url('/src/assets/images/404/error05.svg')",
 				radial01:
 					"radial-gradient(circle, rgba(51,51,51,1) 25%, rgba(0,0,0,1) 100%)",
+				"comp-img": "url('/src/assets/images/comp_img.svg')",
+				hero: "linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%)",
 			},
 			animation: {
 				shine: "shine 5s infinite",

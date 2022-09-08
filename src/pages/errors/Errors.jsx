@@ -9,7 +9,7 @@ import BreadCrumb01 from "../../components/breadCrumbs/BreadCrumb01";
 function Errors() {
 	return (
 		<div>
-			<BreadCrumb01 param={"404"} />
+			<BreadCrumb01 parentParam={"component"} param={"404"} />
 			<Example01 />
 			<Example02 />
 			<Example03 />
