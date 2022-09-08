@@ -16,6 +16,7 @@ module.exports = {
 					"radial-gradient(circle, rgba(51,51,51,1) 25%, rgba(0,0,0,1) 100%)",
 				"comp-img": "url('/src/assets/images/comp_img.svg')",
 				hero: "linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%)",
+				hero02: "linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%)",
 			},
 			animation: {
 				shine: "shine 5s infinite",
@@ -26,6 +27,9 @@ module.exports = {
 						color: "#000",
 					},
 				},
+			},
+			zIndex: {
+				100: "200",
 			},
 		},
 	},

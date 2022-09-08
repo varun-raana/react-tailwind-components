@@ -56,12 +56,12 @@ function BreadCrumb01({ parentParam, param }) {
 				</>
 			)}
 			<li className="sm:truncate">
-				<a
-					href="/#"
+				<Link
+					to="/nav"
 					className="text-sm sm:text-base font-black text-gray-800 capitalize"
 				>
 					{param}
-				</a>
+				</Link>
 			</li>
 		</ul>
 	);

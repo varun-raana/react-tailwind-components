@@ -2,13 +2,13 @@ import error from "../../assets/images/404/undraw_page_not_found_re_e9o6.svg";
 
 function Example04() {
 	return (
-		<div className="h-screen font-sans">
+		<div className="md:h-screen bg-hero02 h-full">
 			<div className="grid lg:grid-cols-2 grid-cols-1 items-center justify-center h-full p-4">
 				<div className="h-full flex items-center justify-center ">
 					<img src={error} className="h-96 w-full" alt="" />
 				</div>
 				<div className="h-full flex flex-col md:items-start md:order-2 order-1 justify-center">
-					<div className="max-w-md w-full p-4">
+					<div className="max-w-md w-full md:p-4">
 						<p className="lg:text-6xl md:text-5xl text-3xl text-gray-500 tracking-wide capitalize font-black">
 							page not found !
 						</p>

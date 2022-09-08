@@ -59,7 +59,7 @@ function Navbar02() {
 						</svg>
 					</button>
 					{isMenuOpen && (
-						<div className="absolute -top-3 left-0 w-full rounded-md bg-white z-10">
+						<div className="absolute -top-3 left-0 w-full rounded-md bg-white z-50">
 							<div className="p-5 h-full">
 								<div className="mb-4 w-full items-center justify-between flex">
 									<button

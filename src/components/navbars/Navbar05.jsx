@@ -49,7 +49,7 @@ function Navbar05() {
 						</svg>
 					</button>
 					{isMenuOpen && (
-						<div className="absolute group cursor-pointer hover:bg-sky-50 overflow-hidden drop-shadow-md w-full top-0 left-0 bg-sky-100 transition-all duration-500 ease-in transform rounded-xl">
+						<div className="absolute z-50 group cursor-pointer hover:bg-sky-50 overflow-hidden drop-shadow-md w-full top-0 left-0 bg-sky-100 transition-all duration-500 ease-in transform rounded-xl">
 							<div className="h-full">
 								<div className="grid lg:grid-cols-3 grid-cols-1 h-full border-2 border-sky-200 rounded-xl">
 									<div className="h-full w-full p-5">

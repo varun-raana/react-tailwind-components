@@ -4,13 +4,13 @@ import error404_01 from "../../assets/images/404/error404_00.png";
 function Example01() {
 	return (
 		<div className="h-screen overflow-hidden p-4 select-none bg-gradient-to-tr from-purple-50 to-transparent w-full">
-			<div className="flex lg:flex-row flex-col items-center justify-center h-full font-sans">
+			<div className="flex lg:flex-row flex-col items-center justify-center h-full">
 				<div className="flex items-center justify-center h-full w-full">
 					<div className="lg:max-h-96 lg:h-full md:max-w-md w-full flex flex-col md:p-4 p-2 md:gap-4 gap-7">
 						<p className="lg:text-lg md:text-sm text-xs capitalize tracking-wider font-light text-gray-600">
 							Need Help ?
 						</p>
-						<p className="lg:text-8xl md:text-6xl text-5xl capitalize tracking-wider font-extralight text-gray-600">
+						<p className="lg:text-7xl md:text-6xl text-5xl capitalize tracking-wider font-extralight text-gray-600">
 							page not found !!
 						</p>
 						<div className="flex lg:flow-row flex-col items-start mt-auto md:gap-4 gap-2">

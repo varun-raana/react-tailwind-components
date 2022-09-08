@@ -101,7 +101,7 @@ function Navbar03() {
 						</svg>
 					</button>
 					{isMenuOpen && (
-						<div className="absolute z-10 w-full bg-white border top-0 left-0">
+						<div className="absolute w-full bg-white border top-0 left-0 z-50">
 							<div className="relative ">
 								<div className="absolute right-0 top-0">
 									<button

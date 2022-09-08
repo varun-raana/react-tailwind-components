@@ -2,7 +2,7 @@ import error404_02 from "../../assets/images/404/17Desember2020-003_-Converted-_
 
 function Example02() {
 	return (
-		<div className="h-screen overflow-hidden flex flex-col items-center justify-center gap-2 font-sans p-4">
+		<div className="h-screen overflow-hidden flex flex-col items-center justify-center gap-2 p-4">
 			<div className="flex flex-col order-2 max-w-md backdrop-blur-md bg-amber-700 py-4 md:px-5 px-4 rounded-md bg-opacity-5 mix-blend-multiply">
 				<p className=" lg:text-7xl md:text-5xl text-4xl capitalize font-medium text-amber-800">
 					oops !!!

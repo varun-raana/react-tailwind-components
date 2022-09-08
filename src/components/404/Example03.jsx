@@ -3,7 +3,7 @@ import React from "react";
 function Example03() {
 	return (
 		<div
-			className="h-screen flex items-center justify-center font-sans overflow-hidden
+			className="h-screen flex items-center justify-center overflow-hidden
      select-none bg-radial01 relative"
 		>
 			<p className="lg:text-[40rem] mix-blend-multiply md:text-[30rem] text-[14rem] font-black text-center text-opacity-90 drop-shadow-2xl text-white md:tracking-wider">
