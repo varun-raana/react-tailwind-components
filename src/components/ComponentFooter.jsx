@@ -2,14 +2,14 @@ import React from "react";
 
 function ComponentFooter({ href }) {
 	return (
-		<div className="py-3 flex items-center justify-center rounded-b-md w-full border-t border-t-gray-500 space-x-2">
+		<div className="py-3 flex items-center justify-center rounded-b-md w-full border-t border-t-gray-500 space-x-2 group cursor-pointer">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				fill="none"
 				viewBox="0 0 24 24"
 				strokeWidth={1.5}
 				stroke="currentColor"
-				className="w-6 h-6"
+				className="w-6 h-6 group-hover:text-violet-600 transition-colors duration-200 ease-in"
 			>
 				<path
 					strokeLinecap="round"
@@ -22,9 +22,9 @@ function ComponentFooter({ href }) {
 				href={href}
 				rel="noreferrer"
 				target="_blank"
-				className="inline-block text-gray-600 capitalize font-medium"
+				className="inline-block text-gray-600 capitalize font-medium group-hover:font-semibold group-hover:text-violet-600 flex-none transition-colors duration-200 ease-in"
 			>
-				get the code
+				get code
 			</a>
 		</div>
 	);

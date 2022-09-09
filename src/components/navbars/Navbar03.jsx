@@ -11,16 +11,14 @@ function Navbar03() {
 						href="/#"
 						aria-label="Company"
 						title="Company"
-						className="inline-flex items-center"
-					>
+						className="inline-flex items-center">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							fill="none"
 							viewBox="0 0 24 24"
 							strokeWidth={1.5}
 							stroke="currentColor"
-							className="w-6 h-6"
-						>
+							className="w-6 h-6">
 							<path
 								strokeLinecap="round"
 								strokeLinejoin="round"
@@ -37,8 +35,7 @@ function Navbar03() {
 								href="/#"
 								aria-label="Company"
 								title="Company"
-								className="font-medium tracking-wide text-gray-400 focus:text-gray-700  transition-colors duration-200 hover:text-deep-purple-accent-400"
-							>
+								className="font-medium tracking-wide text-gray-400 focus:text-gray-700  transition-colors duration-200 hover:text-deep-purple-accent-400">
 								Company
 							</a>
 						</li>
@@ -47,8 +44,7 @@ function Navbar03() {
 								href="/#"
 								aria-label="Product"
 								title="Product"
-								className="font-medium tracking-wide text-gray-400 focus:text-gray-700  transition-colors duration-200 hover:text-deep-purple-accent-400"
-							>
+								className="font-medium tracking-wide text-gray-400 focus:text-gray-700  transition-colors duration-200 hover:text-deep-purple-accent-400">
 								Product
 							</a>
 						</li>
@@ -57,8 +53,7 @@ function Navbar03() {
 								href="/#"
 								aria-label="Pricing"
 								title="Pricing"
-								className="font-medium tracking-wide text-gray-400 focus:text-gray-700  transition-colors duration-200 hover:text-deep-purple-accent-400"
-							>
+								className="font-medium tracking-wide text-gray-400 focus:text-gray-700  transition-colors duration-200 hover:text-deep-purple-accent-400">
 								Pricing
 							</a>
 						</li>
@@ -68,16 +63,12 @@ function Navbar03() {
 					<li>
 						<a
 							href="/#"
-							className="inline-block py-1 px-3 bg-green-600 hover:bg-green-700 transition-colors duration-200 ease-in  text-white rounded-md capitalize"
-						>
+							className="inline-block py-2 px-3 bg-blue-600 hover:bg-blue-700 transition-colors duration-200 ease-in text-white rounded capitalize">
 							sign in
 						</a>
 					</li>
 					<li>
-						<a
-							href="/#"
-							className="inline-block py-1 px-3 text-gray-700 rounded-md capitalize"
-						>
+						<a href="/#" className="inline-block py-2 px-3 text-gray-700 capitalize">
 							sign up
 						</a>
 					</li>
@@ -85,14 +76,12 @@ function Navbar03() {
 				<div className="lg:hidden">
 					<button
 						onClick={() => setIsMenuOpen(true)}
-						className="flex items-center justify-center"
-					>
+						className="flex items-center justify-center">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20"
 							fill="currentColor"
-							className="w-5 h-5"
-						>
+							className="w-5 h-5">
 							<path
 								fillRule="evenodd"
 								d="M2 6.75A.75.75 0 012.75 6h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 6.75zm0 6.5a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75a.75.75 0 01-.75-.75z"
@@ -101,19 +90,17 @@ function Navbar03() {
 						</svg>
 					</button>
 					{isMenuOpen && (
-						<div className="absolute w-full bg-white border top-0 left-0 z-50">
+						<div className="absolute w-full bg-white border top-0 left-0">
 							<div className="relative ">
 								<div className="absolute right-0 top-0">
 									<button
 										onClick={() => setIsMenuOpen(false)}
-										className="p-2 bg-gray-100 text-gray-700"
-									>
+										className="p-2 bg-gray-100 text-gray-700">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
 											viewBox="0 0 20 20"
 											fill="currentColor"
-											className="w-5 h-5 "
-										>
+											className="w-5 h-5 ">
 											<path d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z" />
 										</svg>
 									</button>
@@ -125,16 +112,14 @@ function Navbar03() {
 										href="/#"
 										aria-label="Company"
 										title="Company"
-										className="inline-flex items-center"
-									>
+										className="inline-flex items-center">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
 											fill="none"
 											viewBox="0 0 24 24"
 											strokeWidth={1.5}
 											stroke="currentColor"
-											className="w-6 h-6"
-										>
+											className="w-6 h-6">
 											<path
 												strokeLinecap="round"
 												strokeLinejoin="round"
@@ -152,8 +137,7 @@ function Navbar03() {
 											href="/#"
 											aria-label="Company"
 											title="Company"
-											className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-										>
+											className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
 											Company
 										</a>
 									</li>
@@ -162,8 +146,7 @@ function Navbar03() {
 											href="/#"
 											aria-label="Product"
 											title="Product"
-											className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-										>
+											className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
 											Product
 										</a>
 									</li>
@@ -172,8 +155,7 @@ function Navbar03() {
 											href="/#"
 											aria-label="Pricing"
 											title="Pricing"
-											className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-										>
+											className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
 											Pricing
 										</a>
 									</li>
@@ -183,16 +165,14 @@ function Navbar03() {
 										<li>
 											<a
 												href="/#"
-												className="inline-block py-1 px-3 bg-green-600 hover:bg-green-700 transition-colors duration-200 ease-in text-white rounded-md capitalize"
-											>
+												className="inline-block py-2 px-3 bg-blue-600 hover:bg-blue-700 transition-colors duration-200 ease-in text-white rounded capitalize">
 												sign in
 											</a>
 										</li>
 										<li>
 											<a
 												href="/#"
-												className="inline-block py-1 px-3 text-gray-700 rounded-md capitalize hover:bg-green-100 transition-colors duration-200 ease-in"
-											>
+												className="inline-block py-2 px-3 text-gray-700  capitalize hover:bg-green-100 transition-colors duration-200 ease-in">
 												sign up
 											</a>
 										</li>

@@ -7,15 +7,15 @@ import Navbar02 from "../../components/navbars/Navbar02";
 import Navbar03 from "../../components/navbars/Navbar03";
 import Navbar04 from "../../components/navbars/Navbar04";
 import Navbar05 from "../../components/navbars/Navbar05";
-import Navbar06 from "../../utils/Navbar";
+import Navbar06 from "../../components/navbars/Navbar06";
 
 function Navbars() {
 	return (
-		<div className="h-full w-full space-y-5 xl:pt-20 pb-44 py-10">
-			<BreadCrumb01 parentParam={"components"} param={"nav"} />
+		<div className="h-full w-full md:space-y-5 space-y-10 xl:pt-20 pb-44 py-10">
+			<BreadCrumb01 parentParam={"components"} param={"nav"} to={"/nav"} />
 			<div className="h-auto w-full flex flex-col rounded-lg border border-gray-500">
 				<ComponentHeader />
-				<div className="md:py-10 p-2">
+				<div className="p-2">
 					<Navbar01 />
 				</div>
 				<ComponentFooter
@@ -26,7 +26,7 @@ function Navbars() {
 			</div>
 			<div className="h-auto w-full flex flex-col rounded-lg border border-gray-500">
 				<ComponentHeader />
-				<div className="md:py-10 p-2">
+				<div className="p-2">
 					<Navbar02 />
 				</div>
 				<ComponentFooter
@@ -37,7 +37,7 @@ function Navbars() {
 			</div>
 			<div className="h-auto w-full flex flex-col rounded-lg border border-gray-500">
 				<ComponentHeader />
-				<div className="md:py-10 p-2">
+				<div className="p-2">
 					<Navbar03 />
 				</div>
 				<ComponentFooter
@@ -48,7 +48,7 @@ function Navbars() {
 			</div>
 			<div className="h-auto w-full flex flex-col rounded-lg border border-gray-500">
 				<ComponentHeader />
-				<div className="md:py-10 p-2">
+				<div className="p-2">
 					<Navbar04 />
 				</div>
 				<ComponentFooter
@@ -59,7 +59,7 @@ function Navbars() {
 			</div>
 			<div className="h-auto w-full flex flex-col rounded-lg border border-gray-500">
 				<ComponentHeader />
-				<div className="md:py-10 p-2">
+				<div className="p-2">
 					<Navbar05 />
 				</div>
 				<ComponentFooter
@@ -70,7 +70,7 @@ function Navbars() {
 			</div>
 			<div className="h-auto w-full flex flex-col rounded-lg border border-gray-500">
 				<ComponentHeader />
-				<div className="md:py-10 p-2">
+				<div className="p-2">
 					<Navbar06 />
 				</div>
 				<ComponentFooter

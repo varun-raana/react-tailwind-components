@@ -1,4 +1,3 @@
-// import Box from "../../components/404/Box";
 import Example01 from "../../components/404/Example01";
 import Example02 from "../../components/404/Example02";
 import Example03 from "../../components/404/Example03";
@@ -11,7 +10,7 @@ import ComponentHeader from "../../components/ComponentHeader";
 function Errors() {
 	return (
 		<div className="h-full w-full space-y-5 xl:pt-20 pb-24 py-10">
-			<BreadCrumb01 parentParam={"components"} param={"404"} />
+			<BreadCrumb01 parentParam={"components"} param={"404"} to="/404" />
 			<div className="h-auto w-full flex flex-col rounded-lg border border-gray-500">
 				<ComponentHeader />
 				<div className="md:py-10 p-2">

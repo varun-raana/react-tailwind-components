@@ -2,8 +2,8 @@ import error404_02 from "../../assets/images/404/17Desember2020-003_-Converted-_
 
 function Example02() {
 	return (
-		<div className="h-screen overflow-hidden flex flex-col items-center justify-center gap-2 p-4">
-			<div className="flex flex-col order-2 max-w-md backdrop-blur-md bg-amber-700 py-4 md:px-5 px-4 rounded-md bg-opacity-5 mix-blend-multiply">
+		<div className="h-screen overflow-hidden flex flex-col items-center justify-center gap-2 sm:p-4">
+			<div className="flex flex-col max-w-md backdrop-blur-md bg-amber-700 py-4 md:px-5 px-4 rounded-md bg-opacity-5 mix-blend-multiply">
 				<p className=" lg:text-7xl md:text-5xl text-4xl capitalize font-medium text-amber-800">
 					oops !!!
 				</p>
@@ -29,8 +29,8 @@ function Example02() {
 					</a>{" "}
 				</p>
 			</div>
-			<div className="md:h-[500px] h-[300px] w-fit bg-gray-800 flex-none">
-				<img src={error404_02} className="h-full w-full object-cover" alt="" />
+			<div className="md:h-[500px] h-[300px] w-full flex-none">
+				<img src={error404_02} className="h-auto w-full object-cover" alt="" />
 			</div>
 		</div>
 	);

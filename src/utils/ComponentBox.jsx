@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 function ComponentBox({ title, to, ariaLabel }) {
 	return (
 		<Link aria-label={ariaLabel} to={to}>
-			<div className="w-full h-full rounded-xl cursor-pointer outline-none hover:outline-none flex flex-col group border border-gray-500 filter backdrop-blur-md bg-white/10 transition-colors duration-300 ease-in overflow-hidden">
+			<div className="w-full h-full rounded-xl cursor-pointer outline-none hover:outline-none flex flex-col group border border-gray-500 hover:ring-1 hover:ring-gray-600 filter backdrop-blur-md bg-white/10 transition-all duration-300 ease-in overflow-hidden">
 				<div className="h-14 flex items-center space-x-5 py-4 px-5 w-full transition-all duration-300 ease-in font-medium">
-					<p className="font-black tracking-wide text-base text-gray-600 group-hover:text-slate-700 transition-colors duration-300 ease-in w-full">
+					<p className="font-semibold tracking-wide text-base text-gray-600 group-hover:text-gray-600 transition-colors duration-300 ease-in w-full">
 						{title}
 					</p>
 					<svg
@@ -14,8 +14,7 @@ function ComponentBox({ title, to, ariaLabel }) {
 						viewBox="0 0 24 24"
 						strokeWidth={3}
 						stroke="currentColor"
-						className="w-6 h-6 text-gray-500 group-hover:-mr-1 transition-all duration-200 ease-in"
-					>
+						className="w-6 h-6 text-gray-500 group-hover:-mr-1 group-hover:text-gray-600 transition-all duration-200 ease-in">
 						<path
 							strokeLinecap="round"
 							strokeLinejoin="round"
