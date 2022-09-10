@@ -1,18 +1,18 @@
-import BreadCrumb01 from "../../components/breadCrumbs/BreadCrumb01";
-import ComponentFooter from "../../components/ComponentFooter";
-import ComponentHeader from "../../components/ComponentHeader";
+import Navbar01 from "../components/navbars/Navbar01";
+import Navbar02 from "../components/navbars/Navbar02";
+import Navbar03 from "../components/navbars/Navbar03";
+import Navbar04 from "../components/navbars/Navbar04";
+import Navbar05 from "../components/navbars/Navbar05";
+import Navbar06 from "../components/navbars/Navbar06";
 
-import Navbar01 from "../../components/navbars/Navbar01";
-import Navbar02 from "../../components/navbars/Navbar02";
-import Navbar03 from "../../components/navbars/Navbar03";
-import Navbar04 from "../../components/navbars/Navbar04";
-import Navbar05 from "../../components/navbars/Navbar05";
-import Navbar06 from "../../components/navbars/Navbar06";
+import BreadCrumb from "../utils/BreadCrumb";
+import ComponentFooter from "../components/ComponentFooter";
+import ComponentHeader from "../components/ComponentHeader";
 
 function Navbars() {
 	return (
 		<div className="h-full w-full md:space-y-5 space-y-10 xl:pt-20 pb-44 py-10">
-			<BreadCrumb01 parentParam={"components"} param={"nav"} to={"/nav"} />
+			<BreadCrumb parentParam={"components"} param={"nav"} to={"/nav"} />
 			<div className="h-auto w-full flex flex-col rounded-lg border border-gray-500">
 				<ComponentHeader />
 				<div className="p-2">

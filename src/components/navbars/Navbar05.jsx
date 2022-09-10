@@ -4,22 +4,20 @@ function Navbar05() {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 	return (
-		<div className="px-4 py-6 lg:px-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl bg-violet-600 rounded-md md:px-10 w-full">
+		<nav className="px-4 py-6 lg:px-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl bg-violet-600 rounded-md md:px-10 w-full">
 			<div className="flex relative items-center justify-between w-full">
 				<a
 					href="/#"
 					aria-label="Company"
 					title="Company"
-					className="inline-flex items-center text-violet-50"
-				>
+					className="inline-flex items-center text-violet-50">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
 						viewBox="0 0 24 24"
 						strokeWidth={1.5}
 						stroke="currentColor"
-						className="w-6 h-6"
-					>
+						className="w-6 h-6">
 						<path
 							strokeLinecap="round"
 							strokeLinejoin="round"
@@ -31,16 +29,14 @@ function Navbar05() {
 				<div>
 					<button
 						onClick={() => setIsMenuOpen(true)}
-						className="flex items-center justify-center text-violet-50"
-					>
+						className="flex items-center justify-center text-violet-50">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							fill="none"
 							viewBox="0 0 24 24"
 							strokeWidth={1.5}
 							stroke="currentColor"
-							className="w-6 h-6"
-						>
+							className="w-6 h-6">
 							<path
 								strokeLinecap="round"
 								strokeLinejoin="round"
@@ -54,8 +50,7 @@ function Navbar05() {
 								<div className="absolute top-4 right-4">
 									<button
 										onClick={() => setIsMenuOpen(false)}
-										className="flex items-center justify-center text-violet-600"
-									>
+										className="flex items-center justify-center text-violet-600">
 										<svg className="w-5" viewBox="0 0 24 24">
 											<path
 												fill="currentColor"
@@ -71,16 +66,14 @@ function Navbar05() {
 												href="/#"
 												aria-label="RTC"
 												title="RTC"
-												className="inline-flex items-center group-hover:text-violet-700 transition-colors duration-300 ease-in text-violet-600 justify-center h-full"
-											>
+												className="inline-flex items-center group-hover:text-violet-700 transition-colors duration-300 ease-in text-violet-600 justify-center h-full">
 												<svg
 													xmlns="http://www.w3.org/2000/svg"
 													fill="none"
 													viewBox="0 0 24 24"
 													strokeWidth={1.5}
 													stroke="currentColor"
-													className="md:w-16 w-8"
-												>
+													className="md:w-16 w-8">
 													<path
 														strokeLinecap="round"
 														strokeLinejoin="round"
@@ -95,24 +88,21 @@ function Navbar05() {
 												<li className="w-full md:text-center text-left lg:text-left">
 													<a
 														href="/#"
-														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out"
-													>
+														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out">
 														home
 													</a>
 												</li>
 												<li className="w-full md:text-center text-left lg:text-left">
 													<a
 														href="/#"
-														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out"
-													>
+														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out">
 														about
 													</a>
 												</li>
 												<li className="w-full md:text-center text-left lg:text-left">
 													<a
 														href="/#"
-														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out"
-													>
+														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out">
 														contact
 													</a>
 												</li>
@@ -128,80 +118,70 @@ function Navbar05() {
 												<li className="text-left lg:text-left">
 													<a
 														href="/#"
-														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out"
-													>
+														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out">
 														navbar
 													</a>
 												</li>
 												<li className="text-left lg:text-left">
 													<a
 														href="/#"
-														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out"
-													>
+														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out">
 														header
 													</a>
 												</li>
 												<li className="text-left lg:text-left">
 													<a
 														href="/#"
-														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out"
-													>
+														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out">
 														hero
 													</a>
 												</li>
 												<li className="text-left lg:text-left">
 													<a
 														href="/#"
-														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out"
-													>
+														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out">
 														cards
 													</a>
 												</li>
 												<li className="text-left lg:text-left">
 													<a
 														href="/#"
-														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out"
-													>
+														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out">
 														forms
 													</a>
 												</li>
 												<li className="text-left lg:text-left">
 													<a
 														href="/#"
-														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out"
-													>
+														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out">
 														features
 													</a>
 												</li>
 												<li className="text-left lg:text-left">
 													<a
 														href="/#"
-														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out"
-													>
+														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out">
 														steps
 													</a>
 												</li>
 												<li className="text-left lg:text-left">
 													<a
 														href="/#"
-														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out"
-													>
+														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out">
 														footers
 													</a>
 												</li>
 												<li className="text-left lg:text-left">
 													<a
 														href="/#"
-														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out"
-													>
+														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out">
 														pricing
 													</a>
 												</li>
 												<li className="text-left lg:text-left">
 													<a
 														href="/#"
-														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out"
-													>
+														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out">
 														breadcrumbs
 													</a>
 												</li>
@@ -217,32 +197,28 @@ function Navbar05() {
 												<li className="w-full md:text-center text-left lg:text-left">
 													<a
 														href="/#"
-														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out"
-													>
+														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out">
 														landing pages
 													</a>
 												</li>
 												<li className="w-full md:text-center text-left lg:text-left">
 													<a
 														href="/#"
-														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out"
-													>
+														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out">
 														error 404
 													</a>
 												</li>
 												<li className="w-full md:text-center text-left lg:text-left">
 													<a
 														href="/#"
-														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out"
-													>
+														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out">
 														dashboard
 													</a>
 												</li>
 												<li className="w-full md:text-center text-left lg:text-left">
 													<a
 														href="/#"
-														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out"
-													>
+														className="inline-block uppercase text-sm w-full text-gray-700 font-medium hover:text-violet-600  transition-colors duration-200 ease-in-out">
 														ecommerce
 													</a>
 												</li>
@@ -255,7 +231,7 @@ function Navbar05() {
 					)}
 				</div>
 			</div>
-		</div>
+		</nav>
 	);
 }
 

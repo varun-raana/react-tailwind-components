@@ -4,7 +4,7 @@ function Navbar04() {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 	return (
-		<div className="px-4 py-6 lg:px-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl bg-black rounded-md md:px-10 w-full">
+		<nav className="px-4 py-6 lg:px-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl bg-black rounded-md md:px-10 w-full">
 			<div className="relative flex items-center justify-between lg:justify-center lg:space-x-20">
 				<ul className=" items-center hidden space-x-8 lg:flex">
 					<li>
@@ -12,8 +12,7 @@ function Navbar04() {
 							href="/#"
 							aria-label="Home"
 							title="Home"
-							className="font-medium tracking-wide text-yellow-300 transition-colors duration-200 hover:text-deep-purple-accent-400"
-						>
+							className="font-medium tracking-wide text-yellow-300 transition-colors duration-200 hover:text-deep-purple-accent-400">
 							Home
 						</a>
 					</li>
@@ -22,8 +21,7 @@ function Navbar04() {
 							href="/#"
 							aria-label="About"
 							title="About"
-							className="font-medium tracking-wide text-yellow-300 transition-colors duration-200 hover:text-deep-purple-accent-400"
-						>
+							className="font-medium tracking-wide text-yellow-300 transition-colors duration-200 hover:text-deep-purple-accent-400">
 							About us
 						</a>
 					</li>
@@ -32,16 +30,14 @@ function Navbar04() {
 					href="/#"
 					aria-label="Company"
 					title="Company"
-					className="inline-flex items-center"
-				>
+					className="inline-flex items-center">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
 						viewBox="0 0 24 24"
 						strokeWidth={2}
 						stroke="yellow"
-						className="w-6 h-6"
-					>
+						className="w-6 h-6">
 						<path
 							strokeLinecap="round"
 							strokeLinejoin="round"
@@ -59,8 +55,7 @@ function Navbar04() {
 							href="/#"
 							aria-label="Team"
 							title="Team"
-							className="font-medium tracking-wide text-yellow-300 transition-colors duration-200 hover:text-deep-purple-accent-400"
-						>
+							className="font-medium tracking-wide text-yellow-300 transition-colors duration-200 hover:text-deep-purple-accent-400">
 							Team
 						</a>
 					</li>
@@ -69,8 +64,7 @@ function Navbar04() {
 							href="/#"
 							aria-label="Contact"
 							title="Contact"
-							className="font-medium tracking-wide text-yellow-300 transition-colors duration-200 hover:text-deep-purple-accent-400"
-						>
+							className="font-medium tracking-wide text-yellow-300 transition-colors duration-200 hover:text-deep-purple-accent-400">
 							Contact
 						</a>
 					</li>
@@ -80,8 +74,7 @@ function Navbar04() {
 						aria-label="Open Menu"
 						title="Open Menu"
 						className="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50"
-						onClick={() => setIsMenuOpen(true)}
-					>
+						onClick={() => setIsMenuOpen(true)}>
 						<svg className="w-5 text-yellow-300" viewBox="0 0 24 24">
 							<path
 								fill="currentColor"
@@ -112,8 +105,7 @@ function Navbar04() {
 											aria-label="Close Menu"
 											title="Close Menu"
 											className="p-2  -mr-2 transition duration-200 rounded text-yellow-300 focus:outline-none"
-											onClick={() => setIsMenuOpen(false)}
-										>
+											onClick={() => setIsMenuOpen(false)}>
 											<svg className="w-5" viewBox="0 0 24 24">
 												<path
 													fill="currentColor"
@@ -130,8 +122,7 @@ function Navbar04() {
 												href="/#"
 												aria-label="Home"
 												title="Home"
-												className="font-bold p-5 block tracking-wide text-yellow-300 transition-colors duration-200 hover:text-deep-purple-accent-400"
-											>
+												className="font-bold p-5 block tracking-wide text-yellow-300 transition-colors duration-200 hover:text-deep-purple-accent-400">
 												Home
 											</a>
 										</li>
@@ -140,8 +131,7 @@ function Navbar04() {
 												href="/#"
 												aria-label="About"
 												title="About"
-												className="font-bold p-5 block tracking-wide text-yellow-300 transition-colors duration-200 hover:text-deep-purple-accent-400"
-											>
+												className="font-bold p-5 block tracking-wide text-yellow-300 transition-colors duration-200 hover:text-deep-purple-accent-400">
 												About us
 											</a>
 										</li>
@@ -150,8 +140,7 @@ function Navbar04() {
 												href="/#"
 												aria-label="Contact"
 												title="Contact"
-												className="font-bold p-5 block tracking-wide text-yellow-300 transition-colors duration-200 hover:text-deep-purple-accent-400"
-											>
+												className="font-bold p-5 block tracking-wide text-yellow-300 transition-colors duration-200 hover:text-deep-purple-accent-400">
 												Contact
 											</a>
 										</li>
@@ -162,7 +151,7 @@ function Navbar04() {
 					)}
 				</div>
 			</div>
-		</div>
+		</nav>
 	);
 }
 

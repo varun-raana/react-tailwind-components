@@ -4,7 +4,7 @@ function Navbar03() {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 	return (
-		<div className="max-w-5xl mx-auto bg-white drop-shadow w-full py-6 lg:px-6 md:px-20 px-4">
+		<nav className="max-w-5xl mx-auto bg-white drop-shadow w-full py-6 lg:px-6 md:px-20 px-4">
 			<div className="px-2 flex items-center justify-between relative">
 				<div className="flex items-center space-x-10">
 					<a
@@ -183,7 +183,7 @@ function Navbar03() {
 					)}
 				</div>
 			</div>
-		</div>
+		</nav>
 	);
 }
 

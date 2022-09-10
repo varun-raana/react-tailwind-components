@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 	return (
-		<div className="xl:max-w-screen-lg md:max-w-full sticky top-3 w-full bg-[#e6dee9] bg-opacity-80 z-50 rounded-xl drop-shadow-md backdrop-blur-sm">
+		<nav className="xl:max-w-screen-lg md:max-w-full sticky top-3 w-full bg-[#e6dee9] bg-opacity-80 z-50 rounded-xl drop-shadow-md backdrop-blur-sm">
 			<div className="py-6 lg:px-8 px-4 flex items-center justify-between relative">
 				<Link
 					to="/"
@@ -134,7 +134,7 @@ function Navbar() {
 					)}
 				</div>
 			</div>
-		</div>
+		</nav>
 	);
 }
 

@@ -1,9 +1,10 @@
 import Navbar from "./utils/Navbar";
-import Home from "./pages/home/Home";
-import Navbars from "./pages/navbars/Navbars";
+import Home from "./pages/Home";
+import Navbars from "./pages/Navbars";
 import { Routes, Route } from "react-router-dom";
-import Errors from "./pages/errors/Errors";
+import Errors from "./pages/Errors";
 import Footer from "./utils/Footer";
+import Breadcrumbs from "./pages/Breadcrumbs";
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="nav" element={<Navbars />} />
+					<Route path="breadcrumbs" element={<Breadcrumbs />} />
 					<Route path="404" element={<Errors />} />
 				</Routes>
 
