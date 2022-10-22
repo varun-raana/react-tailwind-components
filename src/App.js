@@ -6,7 +6,7 @@ import Errors from "./pages/Errors";
 import Footer from "./utils/Footer";
 import Breadcrumbs from "./pages/Breadcrumbs";
 import Hero from "./pages/Hero";
-import Hero03 from "./components/headers/Hero03";
+import Hero03 from "./components/heros/Hero03";
 // import Header02 from "./components/headers/Header02";
 // import Header01 from "./components/headers/Header01";
 

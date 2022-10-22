@@ -1,8 +1,8 @@
 import ComponentFooter from "../components/ComponentFooter";
 import ComponentHeader from "../components/ComponentHeader";
 
-import Hero01 from "../components/headers/Hero01";
-import Hero02 from "../components/headers/Hero02";
+import Hero01 from "../components/heros/Hero01";
+import Hero02 from "../components/heros/Hero02";
 
 import BreadCrumb from "../utils/BreadCrumb";
 
