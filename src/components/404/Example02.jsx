@@ -14,17 +14,15 @@ function Example02() {
 					let's go{" "}
 					<a
 						className="text-amber-600 capitalize font-medium no-underline hover:underline transition-all duration-500 ease-in-out"
-						href="/"
-						rel="noreferrer"
-					>
+						href="#"
+						rel="noreferrer">
 						home
 					</a>{" "}
 					or talk to{" "}
 					<a
 						className="text-amber-600 capitalize font-medium no-underline hover:underline transition-all duration-500 ease-in-out"
-						href="/"
-						rel="noreferrer"
-					>
+						href="#"
+						rel="noreferrer">
 						support.
 					</a>{" "}
 				</p>

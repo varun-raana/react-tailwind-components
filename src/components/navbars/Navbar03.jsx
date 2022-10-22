@@ -8,7 +8,7 @@ function Navbar03() {
 			<div className="px-2 flex items-center justify-between relative">
 				<div className="flex items-center space-x-10">
 					<a
-						href="/#"
+						href="/"
 						aria-label="Company"
 						title="Company"
 						className="inline-flex items-center">
@@ -32,7 +32,7 @@ function Navbar03() {
 					<ul className=" items-center hidden space-x-8 lg:flex">
 						<li>
 							<a
-								href="/#"
+								href="#"
 								aria-label="Company"
 								title="Company"
 								className="font-medium tracking-wide text-gray-400 focus:text-gray-700  transition-colors duration-200 hover:text-deep-purple-accent-400">
@@ -41,7 +41,7 @@ function Navbar03() {
 						</li>
 						<li>
 							<a
-								href="/#"
+								href="#"
 								aria-label="Product"
 								title="Product"
 								className="font-medium tracking-wide text-gray-400 focus:text-gray-700  transition-colors duration-200 hover:text-deep-purple-accent-400">
@@ -50,7 +50,7 @@ function Navbar03() {
 						</li>
 						<li>
 							<a
-								href="/#"
+								href="#"
 								aria-label="Pricing"
 								title="Pricing"
 								className="font-medium tracking-wide text-gray-400 focus:text-gray-700  transition-colors duration-200 hover:text-deep-purple-accent-400">
@@ -62,13 +62,13 @@ function Navbar03() {
 				<ul className="hidden lg:flex space-x-3">
 					<li>
 						<a
-							href="/#"
+							href="#"
 							className="inline-block py-2 px-3 bg-blue-600 hover:bg-blue-700 transition-colors duration-200 ease-in text-white rounded capitalize">
 							sign in
 						</a>
 					</li>
 					<li>
-						<a href="/#" className="inline-block py-2 px-3 text-gray-700 capitalize">
+						<a href="#" className="inline-block py-2 px-3 text-gray-700 capitalize">
 							sign up
 						</a>
 					</li>
@@ -109,7 +109,7 @@ function Navbar03() {
 							<div className="p-5 flex flex-col h-full">
 								<div>
 									<a
-										href="/#"
+										href="#"
 										aria-label="Company"
 										title="Company"
 										className="inline-flex items-center">
@@ -134,7 +134,7 @@ function Navbar03() {
 								<ul className="items-center space-y-4 py-5">
 									<li>
 										<a
-											href="/#"
+											href="#"
 											aria-label="Company"
 											title="Company"
 											className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
@@ -143,7 +143,7 @@ function Navbar03() {
 									</li>
 									<li>
 										<a
-											href="/#"
+											href="#"
 											aria-label="Product"
 											title="Product"
 											className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
@@ -152,7 +152,7 @@ function Navbar03() {
 									</li>
 									<li>
 										<a
-											href="/#"
+											href="#"
 											aria-label="Pricing"
 											title="Pricing"
 											className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
@@ -164,14 +164,14 @@ function Navbar03() {
 									<ul className="flex space-x-5">
 										<li>
 											<a
-												href="/#"
+												href="#"
 												className="inline-block py-2 px-3 bg-blue-600 hover:bg-blue-700 transition-colors duration-200 ease-in text-white rounded capitalize">
 												sign in
 											</a>
 										</li>
 										<li>
 											<a
-												href="/#"
+												href="#"
 												className="inline-block py-2 px-3 text-gray-700  capitalize hover:bg-green-100 transition-colors duration-200 ease-in">
 												sign up
 											</a>

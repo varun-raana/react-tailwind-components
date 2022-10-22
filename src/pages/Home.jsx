@@ -20,31 +20,31 @@ function Home() {
 					<BreadCrumb param={"components"} to={"/"} />
 				</div>
 				<section className="grid lg:grid-cols-3 md:grid-cols-2 md:gap-10 gap-4 mb-10">
-					<ComponentBox title={"Navbars"} ariaLabel="nav" to={"/nav"} />
-					<ComponentBox title={"Headers"} ariaLabel="headers" to={"/headers"} />
-					<ComponentBox title={"Pricing"} ariaLabel="pricing" to={"/pricing"} />
-					<ComponentBox title={"Cards"} ariaLabel="cards" to={"/cards"} />
+					<ComponentBox title={"Navbars"} ariaLabel="nav" to={"/nav/"} />
+					<ComponentBox title={"Hero"} ariaLabel="hero" to={"/hero/"} />
+					<ComponentBox title={"Pricing"} ariaLabel="pricing" to={"/pricing/"} />
+					<ComponentBox title={"Cards"} ariaLabel="cards" to={"/cards/"} />
 					<ComponentBox
 						title={"Breadcrumbs"}
 						ariaLabel="breadcrumbs"
-						to={"/breadcrumbs"}
+						to={"/breadcrumbs/"}
 					/>
-					<ComponentBox title={"Badges"} ariaLabel="badges" to={"/badges"} />
-					<ComponentBox title={"Features"} ariaLabel="features" to={"/features"} />
-					<ComponentBox title={"Footers"} ariaLabel="footers" to={"/footers"} />
-					<ComponentBox title={"Teams"} ariaLabel="teams" to={"/teams"} />
-					<ComponentBox title={"Blogs"} ariaLabel="blogs" to={"/blogs"} />
-					<ComponentBox title={"FAQs"} ariaLabel="faqs" to={"/faqs"} />
+					<ComponentBox title={"Badges"} ariaLabel="badges" to={"/badges/"} />
+					<ComponentBox title={"Features"} ariaLabel="features" to={"/features/"} />
+					<ComponentBox title={"Footers"} ariaLabel="footers" to={"/footers/"} />
+					<ComponentBox title={"Teams"} ariaLabel="teams" to={"/teams/"} />
+					<ComponentBox title={"Blogs"} ariaLabel="blogs" to={"/blogs/"} />
+					<ComponentBox title={"FAQs"} ariaLabel="faqs" to={"/faqs/"} />
 				</section>
 			</>
 
 			{/* 404 */}
 			<>
 				<div className="pt-5 pb-2 border-t border-t-gray-500 mb-4 text-gray-600 font-medium capitalize">
-					<BreadCrumb param={"templates"} to={"404"} />
+					<BreadCrumb param={"templates"} to="/" />
 				</div>
 				<section className="grid sm:grid-cols-3 grid-cols-2 md:gap-10 items-center justify-items-center gap-4 py-10">
-					<Link to="/404" className="w-fit h-full sm:mx-0 mx-auto">
+					<Link to="/404/" className="w-fit h-full sm:mx-0 mx-auto">
 						<img
 							src={error404}
 							className="sm:w-40 w-28 h-full block object-cover flex-none"
@@ -74,7 +74,7 @@ function Home() {
 					<BreadCrumb param={"Dashboard"} to={"Dashboard"} />
 				</div>
 				<section className="grid lg:grid-cols-3 md:grid-cols-2 md:gap-10 gap-4 mb-10">
-					<Link to="/templates/dashboard" className="w-32 h-32 sm:mx-0 mx-auto">
+					<Link to="/templates//dashboard" className="w-32 h-32 sm:mx-0 mx-auto">
 						<img
 							src={dashboard}
 							className="w-full h-full block object-cover flex-none"

@@ -7,7 +7,7 @@ module.exports = {
 				xs: "376px",
 			},
 			fontFamily: {
-				ubuntu: "Ubuntu",
+				mont: "Montserrat",
 			},
 			backgroundImage: {
 				error404_01: "url('/src/assets/images/404/error404_01.svg')",
@@ -20,6 +20,7 @@ module.exports = {
 				"comp-img": "url('/src/assets/images/comp_img.svg')",
 				hero: "linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%)",
 				hero02: "linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%)",
+				hero03: "url('/src/assets/images/hero-03.jpg')",
 			},
 			animation: {
 				shine: "shine 5s infinite",

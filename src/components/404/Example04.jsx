@@ -18,9 +18,11 @@ function Example04() {
 							magni rem, qui quidem consequuntur culpa praesentium non sequi ducimus!
 							Cupiditate?
 						</p>
-						<button className="inline-block outline-none hover:bg-orange-50 py-2 px-4 border border-orange-500 rounded-lg text-orange-600 uppercase font-medium text-sm mt-3 transition-all duration-300 ease-in">
+						<a
+							href="#"
+							className="inline-block outline-none hover:bg-orange-50 py-2 px-4 border border-orange-500 rounded-lg text-orange-600 uppercase font-medium text-sm mt-3 transition-all duration-300 ease-in">
 							go to home page
-						</button>
+						</a>
 					</div>
 				</div>
 			</div>

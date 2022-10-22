@@ -11,9 +11,11 @@ function Example05() {
 					<p className="md:text-base text-sm text-center capitalize mt-5 text-white font-light tracking-wide">
 						Oops! something went wrong!
 					</p>
-					<button className="bg-orange-600 text-white font-medium py-2 px-4 mt-4 rounded-md capitalize">
+					<a
+						href="#"
+						className="bg-orange-600 text-white font-medium py-2 px-4 mt-4 rounded-md capitalize">
 						go back
-					</button>
+					</a>
 				</div>
 			</div>
 		</main>

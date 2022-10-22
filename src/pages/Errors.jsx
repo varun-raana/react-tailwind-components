@@ -11,7 +11,9 @@ import ComponentFooter from "../components/ComponentFooter";
 function Errors() {
 	return (
 		<div className="h-full w-full space-y-5 xl:pt-20 pb-24 py-10">
-			<BreadCrumb parentParam={"components"} param={"404"} to="/404" />
+			<BreadCrumb parentParam={"templates"} param={"404"} to="/404" />
+
+			{/* 01 */}
 			<div className="h-auto w-full flex flex-col rounded-lg border border-gray-500">
 				<ComponentHeader />
 				<div className="md:py-10 p-2">
@@ -23,6 +25,8 @@ function Errors() {
 					}
 				/>
 			</div>
+
+			{/* 02 */}
 			<div className="h-auto w-full flex flex-col rounded-lg border border-gray-500">
 				<ComponentHeader />
 				<div className="md:py-10 p-2">
@@ -34,6 +38,8 @@ function Errors() {
 					}
 				/>
 			</div>
+
+			{/* 03 */}
 			<div className="h-auto w-full flex flex-col rounded-lg border border-gray-500">
 				<ComponentHeader />
 				<div className="md:py-10 p-2">
@@ -45,6 +51,8 @@ function Errors() {
 					}
 				/>
 			</div>
+
+			{/* 04 */}
 			<div className="h-auto w-full flex flex-col rounded-lg border border-gray-500">
 				<ComponentHeader />
 				<div className="md:py-10 p-2">
@@ -56,6 +64,8 @@ function Errors() {
 					}
 				/>
 			</div>
+
+			{/* 05 */}
 			<div className="h-auto w-full flex flex-col rounded-lg border border-gray-500">
 				<ComponentHeader />
 				<div className="md:py-10 p-2">

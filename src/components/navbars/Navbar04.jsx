@@ -9,7 +9,7 @@ function Navbar04() {
 				<ul className=" items-center hidden space-x-8 lg:flex">
 					<li>
 						<a
-							href="/#"
+							href="#"
 							aria-label="Home"
 							title="Home"
 							className="font-medium tracking-wide text-yellow-300 transition-colors duration-200 hover:text-deep-purple-accent-400">
@@ -18,7 +18,7 @@ function Navbar04() {
 					</li>
 					<li>
 						<a
-							href="/#"
+							href="#"
 							aria-label="About"
 							title="About"
 							className="font-medium tracking-wide text-yellow-300 transition-colors duration-200 hover:text-deep-purple-accent-400">
@@ -27,7 +27,7 @@ function Navbar04() {
 					</li>
 				</ul>
 				<a
-					href="/#"
+					href="/"
 					aria-label="Company"
 					title="Company"
 					className="inline-flex items-center">
@@ -52,7 +52,7 @@ function Navbar04() {
 				<ul className="items-center hidden space-x-8 lg:flex">
 					<li>
 						<a
-							href="/#"
+							href="#"
 							aria-label="Team"
 							title="Team"
 							className="font-medium tracking-wide text-yellow-300 transition-colors duration-200 hover:text-deep-purple-accent-400">
@@ -61,7 +61,7 @@ function Navbar04() {
 					</li>
 					<li>
 						<a
-							href="/#"
+							href="#"
 							aria-label="Contact"
 							title="Contact"
 							className="font-medium tracking-wide text-yellow-300 transition-colors duration-200 hover:text-deep-purple-accent-400">
@@ -119,7 +119,7 @@ function Navbar04() {
 									<ul>
 										<li>
 											<a
-												href="/#"
+												href="#"
 												aria-label="Home"
 												title="Home"
 												className="font-bold p-5 block tracking-wide text-yellow-300 transition-colors duration-200 hover:text-deep-purple-accent-400">
@@ -128,7 +128,7 @@ function Navbar04() {
 										</li>
 										<li>
 											<a
-												href="/#"
+												href="#"
 												aria-label="About"
 												title="About"
 												className="font-bold p-5 block tracking-wide text-yellow-300 transition-colors duration-200 hover:text-deep-purple-accent-400">
@@ -137,7 +137,7 @@ function Navbar04() {
 										</li>
 										<li>
 											<a
-												href="/#"
+												href="#"
 												aria-label="Contact"
 												title="Contact"
 												className="font-bold p-5 block tracking-wide text-yellow-300 transition-colors duration-200 hover:text-deep-purple-accent-400">

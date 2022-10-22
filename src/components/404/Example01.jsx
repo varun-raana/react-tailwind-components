@@ -3,7 +3,7 @@ import error404_01 from "../../assets/images/404/error404_00.png";
 
 function Example01() {
 	return (
-		<div className="h-screen overflow-hidden p-4 select-none bg-gradient-to-tr from-purple-50 to-transparent w-full">
+		<div className="h-screen overflow-hidden sm:p-4 select-none bg-gradient-to-tr from-purple-50 to-transparent w-full">
 			<div className="flex lg:flex-row flex-col items-center justify-center h-full">
 				<div className="flex items-center justify-center h-full w-full">
 					<div className="lg:max-h-96 lg:h-full md:max-w-md w-full flex flex-col md:p-4 p-2 md:gap-4 gap-7">
@@ -17,9 +17,11 @@ function Example01() {
 							<button className="py-2 px-4 border-none outline-none focus:outline-none bg-purple-500 text-purple-50 hover:bg-purple-600 transition-all duration-200 ease-in flex-none font-medium tracking-wider capitalize rounded">
 								talk to customer support ?
 							</button>
-							<button className="py-2 flex-none  px-4 border-none outline-none focus:outline-none hover:bg-purple-100 rounded transition-all ease-in font-medium capitalize duration-200 tracking-wider text-gray-600">
+							<a
+								href="#"
+								className="py-2 flex-none inline-block px-4 border-none outline-none focus:outline-none hover:bg-purple-300 hover:text-white rounded transition-all ease-in font-medium capitalize duration-200 tracking-wider text-gray-600">
 								go home 🏡
-							</button>
+							</a>
 						</div>
 					</div>
 				</div>

@@ -3,7 +3,7 @@ function BreadCrumb01() {
 		<ul className="flex items-center space-x-2 sm:space-x-3 py-1">
 			<li className="text-gray-500 truncate">
 				<a
-					href="/#"
+					href="#"
 					className="text-sm font-medium text-gray-600 transition-colors duration-200 hover:text-violet-700 sm:text-base capitalize">
 					Home
 				</a>
@@ -25,7 +25,7 @@ function BreadCrumb01() {
 			</li>
 			<li className="text-gray-500 truncate">
 				<a
-					href="/#"
+					href="#"
 					className="truncate text-sm font-medium text-gray-600 transition-colors duration-200 hover:text-violet-600 sm:text-base capitalize">
 					About
 				</a>
@@ -47,7 +47,7 @@ function BreadCrumb01() {
 			</li>
 			<li className="sm:truncate">
 				<a
-					href="/#"
+					href="#"
 					className="truncate text-sm sm:text-base font-semibold text-violet-700 capitalize">
 					contact
 				</a>

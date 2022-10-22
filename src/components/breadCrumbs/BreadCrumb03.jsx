@@ -4,7 +4,7 @@ function BreadCrumb03() {
 	return (
 		<ul className="flex items-center  space-x-2 py-1 lowercase">
 			<li className="truncate ">
-				<a href="/#" className="inline-block text-gray-500">
+				<a href="#" className="inline-block text-gray-500">
 					Home
 				</a>
 			</li>
@@ -25,7 +25,7 @@ function BreadCrumb03() {
 			</li>
 			<li className="truncate">
 				<a
-					href="/#"
+					href="#"
 					className="inline-block text-gray-700 hover:text-blue-600 hover:underline">
 					Price
 				</a>
