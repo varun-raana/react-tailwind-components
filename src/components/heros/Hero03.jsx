@@ -1,12 +1,12 @@
 function Hero03() {
 	return (
-		<div className="h-screen flex items-center justify-center md:px-20 font-mont">
+		<div className="h-screen flex items-center justify-center md:px-20 font-mont bg-white">
 			<div className="bg-hero03 flex flex-col items-center justify-center space-y-5 relative w-full bg-center bg-no-repeat bg-cover md:rounded-2xl p-2 md:p-4 mix-blend-multiply md:h-[700px] md:py-0 py-10 overflow-hidden">
 				<div className="absolute h-full top-0 left-0 w-full bg-sky-900 mix-blend-multiply -z-10"></div>
 				<h1 className="text-4xl md:w-fit w-full md:text-6xl text-white font-semibold md:space-y-2 text-center">
-					<span className="block w-full">Get help with our</span>
+					<span className="block w-full">Grow your business</span>
 					<span className="block w-full text-sky-700 text-opacity-80">
-						developer team.
+						with tech world.
 					</span>
 				</h1>
 				<p className="text-base md:text-lg text-white max-w-2xl mx-auto w-full text-center mt-4 font-medium tracking-wide">
