@@ -5,6 +5,7 @@ import Hero01 from "../components/heros/Hero01";
 import Hero02 from "../components/heros/Hero02";
 import Hero03 from "../components/heros/Hero03";
 import Hero04 from "../components/heros/Hero04";
+import Hero05 from "../components/heros/Hero05";
 
 import BreadCrumb from "../utils/BreadCrumb";
 
@@ -57,6 +58,19 @@ function Home() {
 				<ComponentHeader />
 				<div className="py-4 px-2 h-full">
 					<Hero04 />
+				</div>
+				<ComponentFooter
+					href={
+						"https://github.com/varun-raana/react-tailwind-components/blob/main/src/components/heros/Hero04.jsx"
+					}
+				/>
+			</div>
+
+			{/* Hero05 */}
+			<div className="rounded-lg border border-gray-500 mb-10 mt-4">
+				<ComponentHeader />
+				<div className="py-4 px-2 h-full">
+					<Hero05 />
 				</div>
 				<ComponentFooter
 					href={

@@ -6,6 +6,7 @@ import Errors from "./pages/Errors";
 import Footer from "./utils/Footer";
 import Breadcrumbs from "./pages/Breadcrumbs";
 import Hero from "./pages/Hero";
+import Hero05 from "./components/heros/Hero05";
 
 function App() {
 	return (
@@ -27,7 +28,7 @@ function App() {
 			</div>
 		</div>
 		// <div>
-		// 	<Header01 />
+		// 	<Hero05 />
 		// </div>
 	);
 }

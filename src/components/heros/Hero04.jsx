@@ -1,9 +1,7 @@
-import hero from "../../../src/assets/images/hero-03.jpg";
-
 function Hero04() {
 	return (
 		<div className="md:h-screen w-full bg-white">
-			<div className="flex md:flex-row flex-col h-full w-full">
+			<div className="flex md:flex-row flex-col h-full w-full ">
 				<div className="h-full flex flex-col justify-center w-full space-y-5 p-5 md:pl-10">
 					<h2 className="font-bold text-6xl md:text-7xl lg:text-8xl max-w-6xl text-gray-800">
 						<span className="block">Grow your business</span>
@@ -26,9 +24,9 @@ function Hero04() {
 				</div>
 				<div className="w-full h-full">
 					<img
-						src={hero}
+						src="https://images.unsplash.com/photo-1580894908361-967195033215?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
 						alt="hero"
-						className="h-full w-full object-cover block resize-none"
+						className="w-full h-full  block object-cover"
 					/>
 				</div>
 			</div>
